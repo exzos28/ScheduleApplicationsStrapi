@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "departments",
+  "info": {
+    "name": "Departments"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "private": false,
+      "unique": true
+    },
+    "type_of_class": {
+      "model": "type-of-classes",
+      "via": "departments"
+    },
+    "teachers": {
+      "via": "departments",
+      "collection": "teachers"
+    }
+  }
+}

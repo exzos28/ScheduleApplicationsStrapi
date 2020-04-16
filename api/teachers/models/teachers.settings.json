@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "teachers",
+  "info": {
+    "name": "Teachers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "departments": {
+      "collection": "departments",
+      "via": "teachers",
+      "dominant": true
+    },
+    "hours": {
+      "type": "component",
+      "repeatable": true,
+      "component": "time.day"
+    }
+  }
+}

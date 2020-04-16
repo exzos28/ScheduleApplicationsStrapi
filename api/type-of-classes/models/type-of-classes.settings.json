@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "type_of_classes",
+  "info": {
+    "name": "Type of classes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "private": false,
+      "required": true,
+      "unique": true
+    },
+    "departments": {
+      "via": "type_of_class",
+      "collection": "departments"
+    }
+  }
+}

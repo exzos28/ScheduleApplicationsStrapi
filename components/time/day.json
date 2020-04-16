@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "components_time_days",
+  "info": {
+    "name": "day",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "unique": true,
+      "required": true
+    },
+    "time": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
