@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "schedule_of_exams",
+  "info": {
+    "name": "Графік академічних концертів, заліків та іспитів"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "type": "datetime",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

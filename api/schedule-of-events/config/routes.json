@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/schedule-of-events",
+      "handler": "schedule-of-events.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-of-events/count",
+      "handler": "schedule-of-events.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-of-events/:id",
+      "handler": "schedule-of-events.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/schedule-of-events",
+      "handler": "schedule-of-events.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/schedule-of-events/:id",
+      "handler": "schedule-of-events.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/schedule-of-events/:id",
+      "handler": "schedule-of-events.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

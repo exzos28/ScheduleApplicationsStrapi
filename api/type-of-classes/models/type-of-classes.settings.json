@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "type_of_classes",
   "info": {
-    "name": "Type of classes"
+    "name": "Тип занять"
   },
   "options": {
     "increments": true,
@@ -17,8 +17,8 @@
       "unique": true
     },
     "departments": {
-      "via": "type_of_class",
-      "collection": "departments"
+      "collection": "departments",
+      "via": "type_of_class"
     }
   }
 }

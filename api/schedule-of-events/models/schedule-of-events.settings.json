@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "schedule_of_events",
+  "info": {
+    "name": "Графік заходів"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

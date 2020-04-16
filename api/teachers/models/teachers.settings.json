@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "teachers",
   "info": {
-    "name": "Teachers"
+    "name": "Викладачі"
   },
   "options": {
     "increments": true,
@@ -16,8 +16,8 @@
       "unique": true
     },
     "departments": {
-      "collection": "departments",
       "via": "teachers",
+      "collection": "departments",
       "dominant": true
     },
     "hours": {

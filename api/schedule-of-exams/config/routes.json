@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/schedule-of-exams",
+      "handler": "schedule-of-exams.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-of-exams/count",
+      "handler": "schedule-of-exams.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-of-exams/:id",
+      "handler": "schedule-of-exams.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/schedule-of-exams",
+      "handler": "schedule-of-exams.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/schedule-of-exams/:id",
+      "handler": "schedule-of-exams.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/schedule-of-exams/:id",
+      "handler": "schedule-of-exams.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

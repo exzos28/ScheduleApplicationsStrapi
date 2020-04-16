@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "departments",
   "info": {
-    "name": "Departments"
+    "name": "Відділи"
   },
   "options": {
     "increments": true,
@@ -17,12 +17,12 @@
       "unique": true
     },
     "type_of_class": {
-      "model": "type-of-classes",
-      "via": "departments"
+      "via": "departments",
+      "model": "type-of-classes"
     },
     "teachers": {
-      "via": "departments",
-      "collection": "teachers"
+      "collection": "teachers",
+      "via": "departments"
     }
   }
 }

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/schedule-of-meetings",
+      "handler": "schedule-of-meetings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-of-meetings/count",
+      "handler": "schedule-of-meetings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-of-meetings/:id",
+      "handler": "schedule-of-meetings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/schedule-of-meetings",
+      "handler": "schedule-of-meetings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/schedule-of-meetings/:id",
+      "handler": "schedule-of-meetings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/schedule-of-meetings/:id",
+      "handler": "schedule-of-meetings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
