@@ -1,24 +1,25 @@
 {
   "kind": "collectionType",
   "connection": "default",
-  "collectionName": "type_of_classes",
+  "collectionName": "training_durations",
   "info": {
-    "name": "Тип занять"
+    "name": "Тривалість навчання"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
-      "private": false,
       "required": true,
       "unique": true
     },
-    "departments": {
-      "via": "type_of_class",
-      "collection": "departments"
+    "year": {
+      "type": "integer",
+      "required": true,
+      "unique": true,
+      "min": 1
     }
   }
 }

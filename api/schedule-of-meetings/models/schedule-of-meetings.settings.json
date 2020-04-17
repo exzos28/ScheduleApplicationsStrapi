@@ -14,7 +14,7 @@
       "type": "datetime",
       "required": true
     },
-    "name": {
+    "description": {
       "type": "string",
       "default": "Педрада",
       "required": true

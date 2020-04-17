@@ -18,12 +18,15 @@
         "saturday",
         "sunday"
       ],
-      "unique": true,
+      "unique": false,
       "required": true
     },
     "time": {
       "type": "string",
       "required": true
+    },
+    "description": {
+      "type": "string"
     }
   }
 }

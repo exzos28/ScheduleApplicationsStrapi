@@ -17,8 +17,8 @@
       "unique": true
     },
     "type_of_class": {
-      "via": "departments",
-      "model": "type-of-classes"
+      "model": "type-of-classes",
+      "via": "departments"
     },
     "teachers": {
       "collection": "teachers",
