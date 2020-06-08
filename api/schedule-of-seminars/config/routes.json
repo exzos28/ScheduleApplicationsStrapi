@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/schedule-of-seminars",
+      "handler": "schedule-of-seminars.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-of-seminars/count",
+      "handler": "schedule-of-seminars.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-of-seminars/:id",
+      "handler": "schedule-of-seminars.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/schedule-of-seminars",
+      "handler": "schedule-of-seminars.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/schedule-of-seminars/:id",
+      "handler": "schedule-of-seminars.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/schedule-of-seminars/:id",
+      "handler": "schedule-of-seminars.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

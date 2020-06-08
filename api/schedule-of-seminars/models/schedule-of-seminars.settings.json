@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "schedule_of_seminars",
+  "info": {
+    "name": "Графік семінарів"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "description": {
+      "type": "string",
+      "default": "Семінар"
+    }
+  }
+}
